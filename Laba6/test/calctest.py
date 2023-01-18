@@ -23,6 +23,5 @@ class calc_test(TestCase):
         self.assertEqual(-21, calc(-1, 21, "*"))
 
 
-
 if __name__ == '__main__':
     main()
