@@ -1,9 +1,10 @@
 from unittest import TestCase, main
-from main import calc
+from calc.main import calc
+
 
 class calc_test(TestCase):
     def test_add(self):
-        self.assertEqual(1, calc(1, 2, "+"))
+        self.assertEqual(3, calc(1, 2, "+"))
         self.assertEqual(15, calc(7, 8, "+"))
         self.assertEqual(20, calc(-1, 21, "+"))
 
