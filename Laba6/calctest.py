@@ -22,3 +22,6 @@ class CalcTest(TestCase):
         self.assertEqual(2, calc(1, 2, "*"))
         self.assertEqual(56, calc(7, 8, "*"))
         self.assertEqual(-21, calc(-1, 21, "*"))
+        
+   if __name__ == "__main__":
+        main()
