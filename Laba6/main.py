@@ -19,10 +19,11 @@ def calc(nm1, nm2, op):
 
 
 def main():
-    opera = input("Enter an operation: ")
-    num1 = int(input("Enter a first num: "))
-    num2 = int(input("Enter a second num: "))
-    print(calc(num1, num2, opera))
+    print("Hello world")
+    #opera = input("Enter an operation: ")
+    #num1 = int(input("Enter a first num: "))
+    #num2 = int(input("Enter a second num: "))
+    #print(calc(num1, num2, opera))
 
 
 if __name__ == '__main__':
