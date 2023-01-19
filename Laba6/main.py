@@ -16,16 +16,12 @@ def calc(nm1, nm2, op):
         else:
             res = nm1 / nm2
             return res
-
-
-def main():
-    print("Hello world")
-    #opera = input("Enter an operation: ")
-    #num1 = int(input("Enter a first num: "))
-    #num2 = int(input("Enter a second num: "))
-    #print(calc(num1, num2, opera))
-
-
+  
+ 
+def print_hi(name):
+    print(f'Hi, {name}')
+ 
+ 
 if __name__ == '__main__':
-    main() 
+    print_hi('PyCharm')
 
