@@ -26,6 +26,6 @@ def main():
     #print(calc(num1, num2, opera))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main() 
 
